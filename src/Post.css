@@ -22,7 +22,36 @@
     margin-right: 10px;
 }
 
+.post__commentbox {
+    display: flex;
+    margin-top: 10px;
+}
+
+.post__input {
+    flex: 1;
+    padding: 10px;
+    border: None;
+    border-top: 1px solid lightgray;
+}
+
+.post__commentname {
+    margin-right: 5px;
+}
+
+.post__button {
+    flex: 0;
+    border: None;
+    border-top: 1px solid lightgray;
+    background-color: transparent;
+    color: #6082a3;
+}
+
+.post__comment {
+    margin-bottom: 5px;
+}
+
 .post__text{
     font-weight: normal;
+    margin-right: 5px;
     padding: 20px;
 }
